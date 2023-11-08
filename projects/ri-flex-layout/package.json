@@ -1,0 +1,29 @@
+{
+  "name": "ri-flex-layout",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^16.1.0",
+    "@angular/core": "^16.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "keywords": [
+    "angular latest",
+    "flexbox css",
+    "flex-layout",
+    "ri-flex-layout",
+    "flex",
+    "layout"
+  ],
+  "exports": {
+    "./mq": {
+      "sass": "./src/lib/core/sass/_layout-bp.scss"
+    },
+    "./_mq": {
+      "sass": "./src/lib/core/sass/_layout-bp.scss"
+    }
+  }
+}
